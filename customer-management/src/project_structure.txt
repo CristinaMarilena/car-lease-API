@@ -1,0 +1,30 @@
+.
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── customer
+│   │           └── management
+│   │               ├── CustomerManagementApplication.java
+│   │               ├── controller
+│   │               │   ├── CustomerController.java
+│   │               │   └── dto
+│   │               │       ├── CustomerRegistrationRequest.java
+│   │               │       └── CustomerRegistrationResponse.java
+│   │               ├── model
+│   │               │   └── Customer.java
+│   │               ├── persistance
+│   │               │   ├── entity
+│   │               │   │   └── Customer.java
+│   │               │   └── repository
+│   │               │       └── CustomerRepository.java
+│   │               └── service
+│   │                   ├── CustomerService.java
+│   │                   ├── CustomerServiceImpl.java
+│   │                   └── mapper
+│   │                       └── CustomerMapper.java
+│   └── resources
+├── project_structure.txt
+└── test
+    └── java
+
+17 directories, 11 files
